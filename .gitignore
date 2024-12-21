@@ -17,3 +17,15 @@ agents/*.json
 
 # macOS
 .DS_Store
+
+# Python
+*.py[cod]
+*$py.class
+.venv
+env/
+venv/
+ENV/
+
+# Project specific
+config.local.json
+*.log

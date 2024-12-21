@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "ZerePy"
+name = "iza"
 version = "0.1.0"
-description = "A launch-pad for AI agents"
-authors = ["Ayoub Ed <ayoub@blorm.xyz>", "Efrain <ef@blorm.xyz>", "Max <max@blorm.xyz>"]
+description = "Perosnal AI agent"
+authors = ["izanav0>"]
 license = "MIT License"
 readme = "README.md"
 
