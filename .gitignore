@@ -1,31 +1,26 @@
-# GENERAL
+# Development Environments
 .idea/
-__pycache__/
 .vscode/
+__pycache__/
 *.py~
-
-# CONFIG FILES
-.env
-twitter_config.json
-
-# AGENTS
-agents/*.json
-
-# Include example agent and general config
-!agents/example.json
-!agents/general.json
-
-# macOS
-.DS_Store
 
 # Python
 *.py[cod]
 *$py.class
-.venv
+.venv/
 env/
 venv/
 ENV/
 
-# Project specific
+# Configuration
+.env
+*.json
+!agents/example.json
+!agents/general.json
 config.local.json
+
+# Logs
 *.log
+
+# OS-specific
+.DS_Store
